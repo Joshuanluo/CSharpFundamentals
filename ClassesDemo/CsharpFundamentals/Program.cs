@@ -1,6 +1,7 @@
-﻿using CsharpFundamentals.Math;
+﻿using ClassesDemo.Math;
+using CsharpFundamentals;
 
-namespace CsharpFundamentals
+namespace ClassesDemo
 {
     class Program
     {
@@ -12,8 +13,8 @@ namespace CsharpFundamentals
             josh.Introduce();
 
             Calculator calculator = new Calculator();
-            var result=calculator.Add(1, 2);
+            var result = calculator.Add(1, 2);
             Console.WriteLine(result);
         }
     }
-}
+} 

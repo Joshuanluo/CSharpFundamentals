@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CsharpFundamentals.Math
+namespace ClassesDemo.Math
 {
     public class Calculator
     {
