@@ -35,6 +35,11 @@ class Program
         Console.WriteLine("remove all 1 in the list");
         foreach (var n in numbers)
             Console.WriteLine(n);
+
+        //clear
+        numbers.Clear();
+        Console.WriteLine("clear");
+        Console.WriteLine("Count of list: " + numbers.Count());
     }
 }
 
